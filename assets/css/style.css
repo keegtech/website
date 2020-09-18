@@ -1,0 +1,46 @@
+@import "reset.css";
+@import "fonts.css";
+@import "variables.css";
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100vh;
+}
+
+body {
+  background: var(--color-background);
+}
+
+img {
+  height: 50%;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-size: 10rem;
+  color: var(--color-text-title);
+}
+
+h1 span {
+  font-family: "Archivo";
+  color: var(--color-text-title-secondary);
+}
+
+h2 {
+  font-family: "Poppins";
+  font-size: 2rem;
+  color: var(--color-text-complement);
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 9rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+}
